@@ -8,7 +8,11 @@
   font-size: 11px;
   text-align: center;
 }
-
+.wrapper{
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+}
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
