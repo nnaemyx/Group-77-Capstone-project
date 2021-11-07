@@ -30,3 +30,7 @@
     border-radius: 10px;
     text-align: center;
 }
+.card-body h2{
+  color:hsl(223, 47%, 23%);
+  font-weight: 900;
+}
