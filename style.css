@@ -34,3 +34,13 @@
   color:hsl(223, 47%, 23%);
   font-weight: 900;
 }
+
+.card-body p{
+    margin: 25px 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #d3d3d3;
+    line-height: 1.4;
+    font-size: 120%;
+    font-family: arial;
+}
