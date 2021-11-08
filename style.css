@@ -66,4 +66,13 @@
   color: #ada9a9;
   font-size: 14px
 }
-
+.payment{
+  text-align: center;
+  border-color:none;
+  text-decoration-color:white;
+  background-color: rgb(98, 0, 255);
+  border-radius: 8px;
+  margin:80px 80px 50px 40px;
+  padding:5px 5px 10px 5px;
+  
+}
