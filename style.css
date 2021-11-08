@@ -33,6 +33,10 @@
     height: 600px
 }
 
+.img{
+    height: 180px;
+    object-fit: cover;
+}
 .card-body h2{
   color:hsl(223, 47%, 23%);
   font-weight: 900;
