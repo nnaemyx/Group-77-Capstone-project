@@ -33,7 +33,7 @@
     height: 600px
 }
 
-.img{
+.card-header{
     height: 180px;
     object-fit: cover;
 }
