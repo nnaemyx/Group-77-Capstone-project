@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
-    <title>Frontend Mentor | Order summary card</title>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <!-- Used for scaling our site on different devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>SideHustle Internship | Order summary card</title>
 </head>
-
 <body>
-    <div class="wrapper">
-        <div class="card">
-            <div class="card-header">
-                <img src="./images/illustration-hero.svg" alt="">
-            </div>
-            <div class="card-body">
-                <h2>Order Summary</h2>
-                <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-            </div>
-            <!-- Section of Annual Plan and amount done by Fas3a - Oluwafemi -->
-            <section class="annual-plan">
-                <div class="annual">
-                    <p>$59.99/year</p>
-                    <section class="payment">
-                        <p style="color:white"><b>Proceed to Payment</b></p>
-                    </section>
-                     
-                </div>
-                
-            </section>
-       
-    <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-        <a href="#">Your Name Here</a>.
-    </div>
-</body>
+  <div class="container_card">
+  <div class="card">
+    <img src="images/illustration-hero.svg" alt="" srcset="" class="img">
+    <div class="main_text">
+    <h2 class="title">Order Summary</h2>
+    <div class="text_box">
+  <p class="text_box">You can now listen to millions of songs, audiobooks, and podcasts on any 
+    device anywhere you like!</p>
+  </div> 
+</div>
 
+
+  <!-- Payment -->
+<div class="container_payment">
+  <div class="icon"><img src="images/icon-music.svg" alt="" srcset=""></div>
+  <div class="payment__text">Annual Plan<br><span class="price">$59.99/year</span></div>
+  <div class="change_link"> <a href="#">Change</a> </div>
+</div>
+
+    <!-- Buttons -->
+    <div class="main_button">Proceed to Payment</div>
+  
+    <div class="cancel_order">Cancel Order</div>  
+
+
+</div>
+
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://internship.sidehustle.ng/" target="_blank">SideHustle Internship</a>. 
+    Coded by <a href="#">Group 77</a>.
+  </div>
+</body>
 </html>
