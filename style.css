@@ -29,14 +29,16 @@
     background-color: #fff;
     border-radius: 20px;
     text-align: center;
-        width: 500px;
+    width: 500px;
     height: 600px
 }
 .card-body h2{
   color:hsl(223, 47%, 23%);
   font-weight: 900;
 }
-
+.card-header{
+    object-fit: cover;
+}
 
 .card-body p{
     margin: 25px 50px;
