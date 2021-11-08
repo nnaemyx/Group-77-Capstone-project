@@ -32,11 +32,6 @@
         width: 500px;
     height: 600px
 }
-
-.card-header{
-    height: 180px;
-    object-fit: cover;
-}
 .card-body h2{
   color:hsl(223, 47%, 23%);
   font-weight: 900;
