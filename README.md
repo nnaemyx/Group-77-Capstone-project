@@ -38,7 +38,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- responsive site
 ### What I learned
 Am proud to learn these:
 
