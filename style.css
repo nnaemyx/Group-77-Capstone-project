@@ -25,15 +25,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 300px;
+    /* max-width: 300px; */
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
+        width: 500px;
+    height: 600px
 }
+
 .card-body h2{
   color:hsl(223, 47%, 23%);
   font-weight: 900;
 }
+
 
 .card-body p{
     margin: 25px 50px;
@@ -44,3 +48,22 @@
     font-size: 120%;
     font-family: arial;
 }
+=======
+/* Styling for the Annual Plan by Fas3a */
+.annual-plan{
+  background-color: #f8f9fe;
+  margin: 10px 37px;
+  padding: 15px;
+    border-radius: 20px
+}
+.annual{
+  text-align: left;
+  padding-left: 25px
+}
+.annual p{
+  padding-top: 6px;
+  padding-left: 8px;
+  color: #ada9a9;
+  font-size: 14px
+}
+
